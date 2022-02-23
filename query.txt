@@ -1,0 +1,12 @@
+1 - SELECT * FROM `students` WHERE YEAR(`date_of_birth`) = 1990;
+2 - SELECT * FROM `courses` WHERE `cfu` > 10;
+3 - ;
+4 - ;
+5 - ;
+6 - SELECT * FROM `degrees` WHERE `level`= "magistrale";
+7 - SELECT COUNT(id) FROM `departments`;
+8 - SELECT COUNT(id) FROM `teachers` WHERE `phone` IS NULL;
+9 - SELECT YEAR(`enrolment_date`), COUNT(id) FROM `students` GROUP BY YEAR(`enrolment_date`);
+10 - SELECT `office_address`, COUNT(id) FROM `teachers` GROUP BY `office_address`;
+11 - ;
+12 - ;
